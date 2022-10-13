@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import HeadPhones from './Pages/HeadPhones';
+import Speakers from './Pages/Speakers';
+import Earphones from './Pages/Earphones';
+import Error from './Pages/Error';
+import Form from './Pages/Form';
+import Singleproduct from './Pages/Singleproduct';
+import SharedLayout from './Pages/SharedLayout';
+import ScrollToTop from './Components/ScrollToTop';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path='/' element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path='headphones' element={<HeadPhones />} />
+          <Route path='speakers' element={<Speakers />} />
+          <Route path='earphones' element={<Earphones />} />
+          <Route path='product/:productId' element={<Singleproduct />} />
+          <Route path='checkout' element={<Form />} />
+          <Route path='*' element={<Error />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
