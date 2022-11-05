@@ -5,9 +5,6 @@ This is a solution to the [Audiophile e-commerce website](https://www.frontendme
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](Your users should be able to
-
-      .View the optimal layout for the app depending on their device's screen size.)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
