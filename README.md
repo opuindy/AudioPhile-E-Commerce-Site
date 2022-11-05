@@ -1,4 +1,4 @@
-# Frontend Mentor - Audiophile e-commerce website
+# Audiophile e-commerce website
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
