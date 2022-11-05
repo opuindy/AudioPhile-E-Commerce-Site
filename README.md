@@ -27,7 +27,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://audiophile-e-commerce-webapp-tarry.vercel.app)
+- Live Site URL: [Goto Site](https://audiophile-e-commerce-webapp-tarry.vercel.app)
 
 ## My process
 
