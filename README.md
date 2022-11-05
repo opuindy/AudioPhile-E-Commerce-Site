@@ -1,6 +1,6 @@
 # Audiophile e-commerce website
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+**The inspiration for this project was comes from [Frontend Mentor](https://www.frontendmentor.io/)**
 
 ## Overview
 This is a solution to the [Audiophile e-commerce website](https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
